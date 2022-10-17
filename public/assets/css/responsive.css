@@ -1,0 +1,109 @@
+ @media(min-width:671px) and (max-width:1024px){
+        .photo_name{
+            width:70%;
+            margin: 0 auto;
+            align-items: center;
+            float: none;
+        }
+        .photo_name img{
+            width: 250px;
+            height: 250px;
+            float: none;
+            display: flex;
+            margin: 20px auto;
+        }
+        .photo_name h1{
+            float: none;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+        }
+        .flex_box{
+            flex-wrap: wrap;
+        }
+        .flex_box li{
+            width: 50%;
+        }
+        .flex_box p{
+            text-align: center;
+        }
+        .skills h3{
+            background-color: rgb(176, 254, 228);
+            padding: 20px 20px 30px 0;
+        }
+        .experiences h3{
+            background-color: rgb(176, 254, 228);
+        }
+        .container{
+            width: 70%;
+        }
+        .course{
+            height: 100px;
+        }
+        .footer a{
+            color: white;
+        }
+    }
+    @media(min-width:370px) and (max-width:670px){
+        .photo_name{
+            width: 100%;
+            margin: 0;
+        }
+        .photo_name img{
+            width: 250px;
+            height: 250px;
+            margin: 0 auto;
+            display: block;
+            float: none;
+        }
+        .photo_name h1{
+            text-align: center;
+            padding: 0px;
+        }
+        .flex_box{
+            flex-wrap: wrap;
+            margin: 0px;
+            padding: 0;
+            text-align: center;
+        }
+        .flex_box li{
+            width: 100%;
+            padding: 10px 30px;
+        }
+        .skills{
+            width: 100%;
+            border-style: none;
+        }
+        .skill{
+            margin-top: 10px;
+        }
+        .skill_desc{
+            width: 75%;
+
+        }
+        .skill_desc h4{
+            margin: 0;
+        }
+        .experiences{
+            width: 100%;
+            text-align: center;
+        }
+        .container{
+            width: 75%;
+        }
+        .course{
+            width: 100%;
+            height: auto;
+        }
+        .footer{
+            height: auto;
+        }
+        .listfooter ul{
+            float: left;
+            margin-left: 0px;
+            padding-inline-start: 0px;
+        }
+        .footer a{
+            color: whitesmoke;
+        }
+    }
